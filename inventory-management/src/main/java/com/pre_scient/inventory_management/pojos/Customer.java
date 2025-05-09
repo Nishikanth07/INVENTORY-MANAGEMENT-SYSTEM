@@ -1,6 +1,8 @@
 package com.pre_scient.inventory_management.pojos;
 
 public class Customer extends Person {
+	
+
 	private static int idCounter =1;
 	private int customerId;
 	private Address address;
